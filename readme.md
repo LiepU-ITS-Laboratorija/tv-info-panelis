@@ -1,0 +1,2 @@
+##LiepU foajē informācijas ekrāns
+

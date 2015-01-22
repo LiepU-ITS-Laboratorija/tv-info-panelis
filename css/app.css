@@ -1,0 +1,179 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 overflow: hidden;
+	}
+
+#slideshow, .info_laiks { 
+    margin:0;
+    padding:0;
+    position: relative; 
+    width: 1920px; 
+    height: 1080px; 
+    overflow: hidden;
+    
+}
+
+.info_laiks {
+	 background-image: url('../img/migla.jpg');
+	 background-repeat:no-repeat;
+	 background-size: cover;
+	
+	
+}
+.info {
+	
+	background-repeat:no-repeat;
+	background-size: cover;
+ 
+	
+}
+.info {
+	text-align:center;
+	/* background-color: red */
+}
+.info img {
+	  padding-top:105px;
+      height: 975px; 
+      width: 1920px;
+      
+}
+
+.info_laiks .laiksa {
+	text-align:center;
+	font-size:50px;
+	padding-top:220px;
+	
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px; 
+    bottom: 0px; 
+    overflow: hidden;
+}
+
+.header {
+	font-size:25px;
+	line-height:2.3em;
+	display:block;
+	z-index:1000;
+	position:absolute;
+	top:0;
+	background: #222426; 
+	float:left;
+	width:100%;
+	padding:50px 50px 3px 50px;
+	opacity:0.8;
+	min-height:2em;
+	color: white;
+}
+ 
+
+.header .plkst {
+	padding:10px 75px 10px 30px;
+	float: right;
+	font-size:2.5em;
+}
+
+.header .small {
+	text-transform:uppercase;	 
+	font-size:2em;
+	line-height:1.8em;
+	
+}
+.right {
+	float:right;
+ 
+}
+.left {
+	float:left;
+}
+/* 
+ * LAIKS
+ * 
+ */
+@font-face {
+    font-family: Weather;
+    src: url('../font/weather.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.laika_ikona {
+ 
+  font-family: weather;
+  
+   
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+ .citi {
+ 	width: 60%; 
+ 	text-align: center; 
+ 	margin-left:340px;
+ 	padding-top:40px;
+ }
+ .diena {
+ 	width:32%; float: right 
+ 	
+ 	
+ }
+ small {font-size:20px;}
+
+.error {
+	color: orange;
+	display:none;
+	padding-left: 40px;
+}
